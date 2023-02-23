@@ -1,0 +1,86 @@
+
+
+.form{
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.bDelete{
+    border: none;
+    background-color: rgb(243, 115, 115);
+    padding: 5px;
+    width: 60px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.form input{
+    margin: 5px 0;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#bAdd{
+    background-color: rgb(92, 92, 253);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#eventsContainer{
+    background-color: white;
+    border: 5px;
+    padding: 10px;
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.event{
+    border: solid 1px #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(252, 165, 154);
+    
+}
+
+.event .days {
+    text-align: center;
+    width: 100px;
+    color: black;
+}
+
+.event .days .days-number{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    color: black;
+}
+
+.event .event-name{
+    padding: 10px;
+    width: 200px;
+    color: black;
+}
+
+.event .event-date{
+    padding: 10px;
+    width: 150px;
+    color: black;
+}
+
+.event .actions{
+    padding: 10px;
+    color: black;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiProyecto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="./Estilos/Estilo.css">
+    <link rel="stylesheet" href="./Estilos/fecha.css">
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <link rel="stylesheet" href="./Estilos/mascara.css">
+    
+</head>
+<body>
+    <header class="header">
+        <h1>Ejercicios de DOM</h1>
+    </header>
+
+    <button class="equis hamburger hamburger--minus" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+
+    <aside class="panel">
+        <nav class="menu">
+            <a href="#seccion1">RELOJ Y ALARMA</a>
+            <a href="#seccion2">TAREAS</a>
+            <a href="#seccion3">POMODORO</a>
+            <a href="#seccion4">MASCARA</a>
+            <a href="#seccion5">EVENTO DE TECLADO</a> 
+            <a href="#seccion5">CUENTA REGRESIVA</a> 
+                
+    
+        </nav>
+    </aside>
+  
+    <main>
+        <section id="seccion1" class="section">
+            <h2>Reloj y Alarma</h2>
+            <div id="reloj"></div>
+            <div id="Pr" class="boton">
+                <button class="bot" id="activar-reloj">Iniciar Reloj</button>
+                <button class="bot" id="desactivar-reloj">Detener Reloj</button>
+                <button class="bot" id="activar-alarma">Iniciar Alarma</button>
+                <button class="bot" id="desactivar-alarma">Detener Alarma</button>
+            </div>
+        </section>
+        <section id="seccion2" class="section">
+            <h2>Tareas</h2>
+
+            <div id="app">
+                <div class="form">
+                    <form action="">
+                        <input type="text" id="eventName" />
+                        <input type="date" id="eventDate" />
+                        <input type="submit" id="bAdd" value="Añadir Evento" />
+                    </form>
+                </div>
+        
+                <div id="eventsContainer"></div>
+            </div>
+
+        </section>
+        <section id="seccion3" class="section">
+            <h2>Pomodoro</h2>
+            
+    <div id="appPomodoro">
+        <div id="time">
+            <div id="value"></div>
+            <div id="taskName"></div>
+        </div>
+
+        <div class="tasks-container">
+            <div class="form">
+                    <form action="" id="form" >
+                        <input type="text" id="itTask">
+                        <input type="submit" value="Agregar tarea" id="bAdd">
+                    </form>
+            </div>
+                <div id="tasks">
+
+                </div>
+        </div>
+    </div>
+        </section>
+        <section id="seccion4" class="section">
+            <h2>Mascara</h2>
+            <div id="appMascara">
+                <div class="card">
+                    <div class="holder">Mali</div>
+                    <input type="text" id="inputCard">
+                    <input type="text" id="inputDate">
+                    <input type="text" id="inputCVV">
+                </div>
+        
+            </div>
+        </section>
+
+        <section id="seccion5" class="section">
+            <h2>MOVER OBJETO</h2>
+            <article class="stage">
+                <div class="ball"></div>
+            </article>
+            
+        </section>
+
+        <section id="seccion5" class="section">
+            <h2>Cuenta Regresiva</h2>
+            <div id="countdown"></div>
+        </section>
+        
+    </main>
+
+    <script src="./Script/script.js" type="module"></script>
+    <script src="./Script/DOM/fecha.js"></script>
+    <script src="./Script/Pomodoro/Javascript.js"></script>
+    <script src="./Script/mascara/mascara.js"></script>
+</body>
+</html>
