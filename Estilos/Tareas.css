@@ -2,18 +2,18 @@
 
 .form{
     margin: 0 auto;
-    width: 300px;
+    width: 450px;
     padding: 20px;
     background-color: white;
 }
 
 .bDelete{
     border: none;
-    background-color: rgb(243, 115, 115);
+    background-color: rgba(232,206,250,1);
     padding: 5px;
     width: 60px;
-    height: 40px;
-    color: white;
+    height: 30px;
+    color: black;
     border-radius: 5px;
 }
 
@@ -26,14 +26,15 @@
 }
 
 #bAdd{
-    background-color: rgb(92, 92, 253);
+    background-color: rgb(14, 100, 90);;
     border: none;
     color: white;
     padding: 10px;
     border-radius: 5px;
+    font-size: 1.2rem;
 }
 
-#eventsContainer{
+#tasksContainer{
     background-color: white;
     border: 5px;
     padding: 10px;
@@ -50,34 +51,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
-    background-color: rgb(252, 165, 154);
-    
+    color: white;
+    background-color: rgb(14, 100, 90);;
+    font-size: 1.2rem;
 }
 
 .event .days {
     text-align: center;
     width: 100px;
-    color: black;
+    color: white;
+    
 }
 
 .event .days .days-number{
     font-size: 30px;
     font-weight: bold;
     display: block;
-    color: black;
+    color: white;
+   
 }
 
 .event .event-name{
     padding: 10px;
     width: 200px;
-    color: black;
+    color: white;
 }
 
 .event .event-date{
     padding: 10px;
     width: 150px;
-    color: black;
+    color: white;
 }
 
 .event .actions{

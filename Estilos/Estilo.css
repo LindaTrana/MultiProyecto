@@ -1,7 +1,7 @@
 :root{
 --main-font:sans-serif;
 --font-size:16px;
---main-color:rgb(190, 56, 56);
+--main-color:rgb(14, 100, 90);
 --second-color:rgb(34,34,34,0.85);
 --main-modal-color:rgba(190, 56, 56 0.8);
 --second-modal-color:rgba(34,34,34,0.85);
@@ -23,6 +23,7 @@ box-sizing: inherit;
 body{
     margin: 0;
     overflow-x: hidden;
+    background: linear-gradient(120deg, rgba(231,208,246,1) 0%, rgba(66,138,129,1) 50%, rgba(232,206,250,1) 100%);
 }
 
 img{
@@ -42,6 +43,7 @@ img{
 .header h1{
     margin: 0 auto;
     text-align: center;
+    color: white;
 
 }
 
@@ -56,6 +58,9 @@ img{
     width: 100%;
 } 
 
+#seccion1{
+    margin: 0 auto;
+}
 button{
     padding-top: 0.5rem;
     padding-left: 0.3rem;
@@ -114,7 +119,7 @@ right: 0;
 .menu a{
     padding: 2rem;
     width: inherit;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: block;
     text-decoration: none;
     color: var(--main-color);
@@ -130,13 +135,17 @@ background-color: var(--main-modal-color);
 
 #Pr{
     display: flex;
-    margin-left: 12rem;
+    margin: 0 auto;
+    width: 25rem;
 }
 
 .bot{
     background-color:var(--main-color);
-    color: black;
+    color: rgb(252, 248, 248);
     margin: 0.3rem;
+    width: 100px;
+    font-size: 1rem;
+    padding: 5px;
 }
 
 .stage{
@@ -151,4 +160,13 @@ background-color: var(--main-modal-color);
     height: 4rem;
     border-radius: 50%;
     background-color: var(--main-color);
+}
+
+.section h2{
+    font-size: 2rem;
+    color: white;
+}
+
+#reloj{
+    font-size: 1.5rem;
 }

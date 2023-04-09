@@ -7,14 +7,14 @@
     <title>MultiProyecto</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
     <link rel="stylesheet" href="./Estilos/Estilo.css">
-    <link rel="stylesheet" href="./Estilos/fecha.css">
+    <link rel="stylesheet" href="./Estilos/Tareas.css">
     <link rel="stylesheet" href="./Estilos/style.css">
     <link rel="stylesheet" href="./Estilos/mascara.css">
     
 </head>
 <body>
     <header class="header">
-        <h1>Ejercicios de DOM</h1>
+        <h1>Practicas JS</h1>
     </header>
 
     <button class="equis hamburger hamburger--minus" type="button">
@@ -39,7 +39,7 @@
   
     <main>
         <section id="seccion1" class="section">
-            <h2>Reloj y Alarma</h2>
+            <h2>RELOJ Y ALARMA</h2>
             <div id="reloj"></div>
             <div id="Pr" class="boton">
                 <button class="bot" id="activar-reloj">Iniciar Reloj</button>
@@ -48,46 +48,50 @@
                 <button class="bot" id="desactivar-alarma">Detener Alarma</button>
             </div>
         </section>
+
         <section id="seccion2" class="section">
-            <h2>Tareas</h2>
+            <h2>TAREAS</h2>
 
             <div id="app">
                 <div class="form">
                     <form action="">
                         <input type="text" id="eventName" />
                         <input type="date" id="eventDate" />
-                        <input type="submit" id="bAdd" value="Añadir Evento" />
+                        <input type="submit" id="bAdd" value="Añadir Tarea" />
                     </form>
                 </div>
         
-                <div id="eventsContainer"></div>
+                <div id="tasksContainer"></div>
             </div>
 
         </section>
+
         <section id="seccion3" class="section">
-            <h2>Pomodoro</h2>
+            <h2>POMODORO</h2>
             
-    <div id="appPomodoro">
-        <div id="time">
-            <div id="value"></div>
-            <div id="taskName"></div>
-        </div>
-
-        <div class="tasks-container">
-            <div class="form">
-                    <form action="" id="form" >
-                        <input type="text" id="itTask">
-                        <input type="submit" value="Agregar tarea" id="bAdd">
-                    </form>
+            <div id="appPomodoro">
+                <div id="time">
+                    <div id="value"></div>
+                    <div id="taskName"></div>
             </div>
-                <div id="tasks">
 
+            <div class="tasks-container">
+                <div class="form">
+                        <form action="" id="form" >
+                            <input type="text" id="itTask">
+                            <input type="submit" value="Agregar tarea" id="bAdd">
+                        </form>
                 </div>
-        </div>
-    </div>
+                    <div id="tasks">
+
+                    </div>
+            </div>
+       
         </section>
+
         <section id="seccion4" class="section">
-            <h2>Mascara</h2>
+            <h2>MASCARA</h2>
+
             <div id="appMascara">
                 <div class="card">
                     <div class="holder">Mali</div>
@@ -97,10 +101,12 @@
                 </div>
         
             </div>
+            
         </section>
 
         <section id="seccion5" class="section">
             <h2>MOVER OBJETO</h2>
+
             <article class="stage">
                 <div class="ball"></div>
             </article>
@@ -108,14 +114,16 @@
         </section>
 
         <section id="seccion5" class="section">
-            <h2>Cuenta Regresiva</h2>
+            <h2>CUENTA REGRESIVA</h2>
+
             <div id="countdown"></div>
+
         </section>
         
     </main>
 
     <script src="./Script/script.js" type="module"></script>
-    <script src="./Script/DOM/fecha.js"></script>
+    <script src="./Script/DOM/tarea.js"></script>
     <script src="./Script/Pomodoro/Javascript.js"></script>
     <script src="./Script/mascara/mascara.js"></script>
 </body>
